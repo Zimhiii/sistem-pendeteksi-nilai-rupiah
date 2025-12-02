@@ -24,7 +24,7 @@ export default function Index() {
   const [scanningPulse, setScanningPulse] = useState(false);
 
   const cameraRef = useRef<CameraView>(null);
-  const tapTimer = useRef<number | null>(null);
+  const tapTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   // Model ML hook
   const { modelState, predict, isLoading } = useRupiahModel();

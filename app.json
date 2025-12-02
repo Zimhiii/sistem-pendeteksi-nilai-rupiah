@@ -49,7 +49,6 @@
         }
       ]
     ],
-    "permissions": ["RECORD_AUDIO", "CAMERA"],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
